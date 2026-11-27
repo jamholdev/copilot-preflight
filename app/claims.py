@@ -38,6 +38,8 @@ def member_claims(member_id):
 @bp.get("/claims/search")
 def search_claims():
     status = request.args.get("status", "")
-    query = f"SELECT claim_id, member_id, status, amount_usd FROM claims WHERE status = '{status}'"
-    rows = get_db().execute(query).fetchall()
+    rows = get_db().execute(
+        "SELECT claim_id, member_id, status, amount_usd FROM claims WHERE status = ?",
+        (status,),
+    ).fetchall()
     return jsonify([dict(r) for r in rows])
