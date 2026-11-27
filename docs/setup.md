@@ -86,7 +86,7 @@ Git for Windows includes Git Credential Manager, which opens a browser window to
 ## 2. Repo settings
 1. **Settings → General → Template repository** ✔️
 2. **Actions tab:** confirm the `CodeQL` and `Tests` workflows ran green on `main`. If CodeQL fails on action versions, update the `@v4`/`@v5` tags to the current major versions listed on each action's GitHub page.
-3. **Settings → Code security:** confirm:
+3. **Settings → Advanced Security:** confirm:
    - Secret scanning + **Push protection**: enabled
    - Code scanning shows the CodeQL workflow (advanced setup). Leave *default setup* off because it conflicts with the workflow file.
    - Copilot Autofix: on (it's on by default for CodeQL alerts on public repos)
