@@ -1,6 +1,6 @@
 # Run of Show: 7 Minute Demo
 
-**Setting:** Fake Health Company. The CISO has paused Copilot expansion over PHI and code-quality concerns. Goal: show how GitHub governs AI-assisted development so the rollout can proceed safely.
+**Setting:** Health Company Inc. The CISO has paused Copilot expansion over PHI and code-quality concerns. Goal: show how GitHub governs AI-assisted development so the rollout can proceed safely.
 
 **Before you start (10 minutes before)**
 - [ ] `.\scripts\reset-demo.ps1` has run and the PR shows a CodeQL alert
