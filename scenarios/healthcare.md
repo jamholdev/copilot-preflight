@@ -1,4 +1,4 @@
-# Scenario: Fake Health Company
+# Scenario: Health Company Inc.
 
 **Regional health insurer · ~400 developers · Java/.NET/Python · GitHub Enterprise Cloud (assumed, to confirm)**
 
